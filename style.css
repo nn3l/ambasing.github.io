@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 72.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(237, 0, 112, 0.9640231092436975) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: Lucida Calligraphy;
+  color: white;
+}
+
+h1 {
+  text-align: center; /* Untuk mengatur teks agar berada di tengah */
+  margin-top: 250px; /* Atur margin atas agar elemen tidak tepat di tengah, bisa disesuaikan */
+}
+
+.sedih {
+  width: 20%;
+}
+
+.projek {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 30px;
+  font-size: 30px;
+  border-radius: 8px;
+  width: 120px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* .yes {
+  padding: 10px;
+} */
